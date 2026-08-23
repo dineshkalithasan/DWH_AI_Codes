@@ -1,3 +1,6 @@
+--to turn off PKEY
+--SET SESSION sql_require_primary_key = 0;
+
 create database stgdb_din;
 CREATE TABLE stgdb_din.stg_accounts (
     AccountID VARCHAR(50),
