@@ -3,6 +3,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 import configparser
 
+#---- 2. Read DB Connection Details from config.ini ───────────────────────────────
 config = configparser.ConfigParser()
 config.read("config.ini")
 db = config["database"]
