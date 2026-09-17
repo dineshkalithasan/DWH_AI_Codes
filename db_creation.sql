@@ -398,3 +398,5 @@ CREATE TABLE cc_mart.fact_creditcard (
     utilization_percent DECIMAL(5,2),
     load_dt DATE,
     load_ts TIMESTAMP);
+    
+ 
